@@ -1,0 +1,158 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+}
+
+body{
+    background-color: ghostwhite;
+}
+
+/* -------------------HEADER--------- */
+
+.header{
+    background-image: url(image/header2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 200px 200px;
+    color: white;
+    font-family: 'Merriweather', serif;
+    font-size: 2rem;
+    line-height: 1.5;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+}
+
+
+
+/* ----------- Nav Button ------------ */
+.nav{
+    background-color: black;
+    height: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.nav a{
+    color: white;
+    margin-left: 30px;
+    font-size: 1.1rem;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    padding: 10px 10px;
+    
+}
+
+.right-btn{
+    float: right;
+    margin-right: 20px;
+
+}
+
+.nav a:hover{
+    background-color: lightcoral;
+    transition: 0.5s;
+}
+
+/* --------------------MAIN CONTAINER-------- */
+
+.main-container{
+    flex-wrap: wrap;
+    height: 300px;
+    padding: 20px 50px;
+    margin-bottom: 100px;
+    
+    
+}
+
+.main-container2{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+   
+    
+}
+
+.main-container > div {
+    width: 200px;
+    height: 150px;
+}
+
+.dev-comment{
+    font-family: 'Merriweather', serif;
+    margin-top: 10px;
+}
+
+.main-paragraph{
+    font-family: 'Merriweather', serif;
+    line-height: 2.5;
+    color: darkgray;
+    min-width: 100%;
+  
+
+}
+
+
+/* -------------CONTENT---------------------- */
+
+.container{
+    padding: 20px 40px;
+    line-height: 1.9rem;
+    display: flex;
+    
+}
+
+.container > div{
+    border: 1px solid #cccccc;
+    padding: 20px 40px;
+}
+
+.mid-container{
+    flex: 3;
+    order: 2;
+}
+
+.left-container{
+    flex: 1;
+    order: 1;
+}
+
+
+.right-container{
+    flex: 1;
+    order: 3;
+}
+
+/* -------------GALLERY------- */
+
+.gallery-container{
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.gallery-container > div{
+    background-color: gray;
+    margin-bottom: 1rem;
+    padding: 20px 40px;
+    width: 200px;
+    height: 150px;
+}
+
+
+
+
+
+/* -------FOOTER--------- */
+
+.footer{
+    background-color: black;
+    height: 50px;
+    text-align: center;
+    
+}
+
